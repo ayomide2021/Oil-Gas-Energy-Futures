@@ -11,7 +11,7 @@ Risk Management: provide insights into hedging and managing portfolio risks.
 The dataset comprises 8 columns for the combined data, whereas the individual data contains 6 columns.
 Column Descriptions:
 1. Date: Trading Days from 2000 to 2023. Format: YYYY-MM-DD.
-2. Open: Market's opening price for the day.
+2. Open Market's opening price for the day.
 3. High: Peak price during the trading window.
 4. Low: Lowest traded price during the day.
 5. Close: End of day(EOD) prices.
@@ -20,3 +20,6 @@ Column Descriptions:
 8. Commodity: Indicates the type of fuel to which the future contract is related, such as crude oil or natural gas.
 
 The volatility, profitability and pairwise correlation of the commodities were analysed to gain insight into the dataset.
+
+
+
