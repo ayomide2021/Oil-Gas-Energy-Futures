@@ -1,5 +1,5 @@
 # Oil-Gas-Energy-Commodities Trading
-
+ 
 # Introduction
 Over the years, fossil fuels have played significant roles in supplying energy for heating and power generation to the human population. Various factors, including global demand, government policies, economic considerations, and technological advancements, have influenced energy availability. In this analysis, I employ an up-to-date dataset concerning futures related to major fossil fuels to offer the following: Trend Analysis and Market Dynamics: analyse and scrutinize price fluctuation patterns to predict future market trends in the energy industry. Trading and Investment Strategies: utilize the dataset to test trading and investment strategies based on energy fuel dynamics. Risk Management: provide insights into hedging and managing portfolio risks
 My choice of dataset is deliberate, as it aligns with my experience in the Oil and Gas Industry in Europe and Africa. 
