@@ -6,8 +6,11 @@ My choice of dataset is deliberate, as it aligns with my experience in the Oil a
 
 # Skills
 •	Data manipulation with Pandas
+
 •	Data Visualization with Matplotlib, Plotly and Seaborn
+
 •	Data Cleaning and Preprocessing
+
 •	Data Storytelling and Communication
 
 # Objectives
