@@ -4,6 +4,11 @@
 Over the years, fossil fuels have played significant roles in supplying energy for heating and power generation to the human population. Various factors, including global demand, government policies, economic considerations, and technological advancements, have influenced energy availability. In this analysis, I employ an up-to-date dataset concerning futures related to major fossil fuels to offer the following: Trend Analysis and Market Dynamics: analyse and scrutinize price fluctuation patterns to predict future market trends in the energy industry. Trading and Investment Strategies: utilize the dataset to test trading and investment strategies based on energy fuel dynamics. Risk Management: provide insights into hedging and managing portfolio risks
 My choice of dataset is deliberate, as it aligns with my experience in the Oil and Gas Industry in Europe and Africa. 
 
+# Objectives
+1.	To evaluate the volatility of each commodity over the years
+2.	To prepare a correlation matrix and heatmap of the commodities
+3.	To visualise the price trend over time for each commodity
+
 # Skills
 •	Data manipulation with Pandas
 
@@ -13,34 +18,31 @@ My choice of dataset is deliberate, as it aligns with my experience in the Oil a
 
 •	Data Storytelling and Communication
 
-# Objectives
-1.	To evaluate the volatility of each commodity over the years
-2.	To prepare a correlation matrix and heatmap of the commodities
-3.	To visualise the price trend over time for each commodity
 
-# Data source
-The dataset used in this project was obtained from an online source on Kaggle. I downloaded the dataset in CSV format and subsequently imported it into Python using the Pandas library. The dataset was then subjected to a series of data cleaning, analysis, and visualization steps. 
-The dataset comprises 8 columns for the combined data, whereas the individual data contains 6 columns.
-The following text describes the columns. It provides a detailed explanation of what information is contained in each column. Please note that any errors in spelling, grammar, or punctuation have been corrected.
-1. Date: Trading Days from 2000 to 2023. Format: YYYY-MM-DD.
-2. Open: Market's opening price for the day.
-3. High: Peak price during the trading window.
-4. Low: Lowest traded price during the day.
-5. Close: End of day(EOD) prices.
-6. Volume: The quantity of contracts traded during the trading period.
-7. Ticker: The unique market quotation symbol for the commodity.
-8. Commodity: Indicates the type of fuel to which the future contract is related, such as crude oil or natural gas.
+# Data Source and Preparation
+The dataset, sourced from Kaggle, was imported into Python using the Pandas library. It contains data from 2000 to 2023 with columns for trading dates, opening and closing prices, daily high and low prices, trading volume, ticker symbols, and commodity types. The dataset was thoroughly cleaned, transformed, and prepared for analysis.
+# Data Cleaning and Transformation
+Data cleaning was executed using the Pandas library in Jupyter Notebook. Key steps included:
 
-This process of data extraction and preparation forms the foundation for the subsequent data analysis and visualization steps in the project.
+•	Inspecting each column for empty cells or errors
 
-# Data Transformation/Cleaning
-Data cleaning and transformation were executed within a Jupyter Notebook using the Pandas library. To ensure the dataset's integrity, each column was meticulously inspected through a for-loop, confirming the absence of empty cells or errors. The dataset is clean with no missing or NaN value. The date data was converted to datetime format for more meaningful and accurate time-series analysis and visualization.
+•	Converting date data to datetime format for accurate time-series analysis
 
-# Preliminary data exploration
-As part of the project, I conducted an initial Exploratory Data Analysis (EDA) and utilized statistical data visualization techniques to gain insights from the dataset. The key steps in this phase included: histogram distribution of commodities over time, trading volume of commodities over time, price trend and box plot distributions. By conducting this initial EDA and employing these statistical data visualization methods, I aimed to uncover significant patterns, anomalies and insights within the dataset.
+# Preliminary Data Exploration
+Exploratory Data Analysis (EDA) involved:
+
+•	Histogram distributions of commodities over time
+
+•	Trading volumes over time
+
+•	Price trend analysis and box plot distributions
 
 # Data Modelling
-A new column was created for the daily price per cent change over time for all commodities. This new column is particularly useful for the visualization of changes in daily price trends over time.  
+A new column was created for the daily price percentage change over time for all commodities, facilitating visualization of price trends.
+# Analysis Techniques
+•	Histogram and line plots for visual analysis
+
+•	Correlation matrix and heatmap for visualizing pairwise correlations between commodities
 
 
 # Analysis
@@ -55,12 +57,20 @@ Analysis was done using simple visuals like histogram and line plots. A correlat
 # Pairwise correlations of commodities
 ![G3](https://github.com/ayomide2021/Oil-Gas-Energy-Futures/assets/83126882/58b3a849-8085-47e4-8275-8228fe68cb27)
 
+# Key Findings
+1.	Log-Scale Plot: Reveals a close relationship between the price trends of Brent oil and crude oil.
+ 
+2.	Volatility: Crude oil exhibits the highest volatility, with significant fluctuations largely due to the negative oil prices in April 2020. Heating oil displays the least volatility.
+   
+3.	Correlation Matrix: Shows strong correlations between all oil derivatives and crude oil, indicating similar market dynamics. In contrast, natural gas shows weak correlations with crude oil, highlighting distinct market behaviors.
+  
+4.	Long-Term Price Trends: Reflect the impact of global events, political factors, and changes in demand on commodity dynamics.
+# Recommendations
+•	Current Best Model: The simple linear model outperformed others in three of four key metrics, demonstrating efficiency with a prediction time of 0.004 seconds. Its high interpretability makes it suitable for the client’s needs in healthcare services.
 
-# Conclusions/recommendations
-1. The log-scale plot reveals a close relationship between the price trends of Brent oil and crude oil.
-2. Crude oil exhibits the highest volatility while heating oil displays the least. The significant volatility in oil prices can be largely attributed to the negative oil prices experienced in April 2020.
-3. The correlation matrix illustrates strong correlations between all oil derivatives and crude oil while indicating weak correlations with natural gas. This observation implies that the market dynamics of natural gas differ significantly from those of crude oil.
-4. The long-term price trends underscore the impact of various global events, including political factors and changes in demand, on the dynamics of commodities.¶
-5. It would be useful to improve the quality of this project in the future by adding predictive modelling techniques or machine learning tools to make mid-to long-term price predictions of the commodities. 
+•	Future Improvements: Incorporating predictive modeling techniques or machine learning tools could enhance the project's quality, enabling mid-to long-term price predictions for the commodities.
+
+This comprehensive analysis of fossil fuel futures offers actionable insights for market trend prediction, trading strategies, and risk management, aiding stakeholders in making informed decisions and improving resource allocation.
+
 
 
