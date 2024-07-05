@@ -49,7 +49,7 @@ A new column was created for the daily price percentage change over time for all
 Analysis was done using simple visuals like histogram and line plots. A correlation matrix and heat map were also created to visualize the pair-wise correlations between commodities. 
 # Daily price per cent change over time for all commodities
 ![G1](https://github.com/ayomide2021/Oil-Gas-Energy-Futures/assets/83126882/9035f830-7410-485e-9a5a-36da4e1eedef)
-# log scale visualization
+# Log scale visualization
 ![newplot (1)](https://github.com/ayomide2021/Oil-Gas-Energy-Futures/assets/83126882/8065e8a3-361a-4353-a072-37873a022e23)
 # Volatility of commodities
 ![G2](https://github.com/ayomide2021/Oil-Gas-Energy-Futures/assets/83126882/f719cb6c-a10b-446f-b707-9a533c9c5f47)
