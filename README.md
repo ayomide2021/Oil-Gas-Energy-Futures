@@ -20,7 +20,8 @@ My choice of dataset is deliberate, as it aligns with my experience in the Oil a
 
 
 # Data Source and Preparation
-The dataset, sourced from Kaggle, was imported into Python using the Pandas library. It contains data from 2000 to 2023 with columns for trading dates, opening and closing prices, daily high and low prices, trading volume, ticker symbols, and commodity types. The dataset was thoroughly cleaned, transformed, and prepared for analysis.
+The dataset, sourced from Kaggle, was imported into Python using the Pandas library. It contains data from 2000 to 2023 with columns for trading dates, opening and closing prices, daily high and low prices, trading volume, ticker symbols, and commodity types.
+
 # Data Cleaning and Transformation
 Data cleaning was executed using the Pandas library in Jupyter Notebook. Key steps included:
 
